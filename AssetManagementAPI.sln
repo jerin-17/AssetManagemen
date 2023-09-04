@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetManagementAPI", "AssetManagementAPI\AssetManagementAPI.csproj", "{5C73279D-C049-4EBE-AB6B-D53160CC1854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetManagementConsole", "AssetManagementConsole\AssetManagementConsole.csproj", "{98C8B05C-238D-45A1-92FE-6AB8A7178858}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C73279D-C049-4EBE-AB6B-D53160CC1854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C73279D-C049-4EBE-AB6B-D53160CC1854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C73279D-C049-4EBE-AB6B-D53160CC1854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C73279D-C049-4EBE-AB6B-D53160CC1854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C8B05C-238D-45A1-92FE-6AB8A7178858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C8B05C-238D-45A1-92FE-6AB8A7178858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C8B05C-238D-45A1-92FE-6AB8A7178858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C8B05C-238D-45A1-92FE-6AB8A7178858}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB2F2A74-AF6E-4578-9EF7-0AED14B2FE46}
+	EndGlobalSection
+EndGlobal
