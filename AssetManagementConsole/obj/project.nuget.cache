@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "am4VhmivjPotK08C6BKDSz8aCJhAXUQvqCXaWlFEXwJoH/1hUqHff/rGcBO2GkO3cuMpi6ZaCzKqG6sczr3GLg==",
+  "dgSpecHash": "llI/FU/3OrrZyAFww1rR9bWwuD8Vom7d02x2y9L8Mr1poa+7nBFrQKwN1cCMBjZx8bzT/27Q8i2RT7urrdqBMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jerins\\source\\repos\\AssetManagementAPI\\AssetManagementConsole\\AssetManagementConsole.csproj",
+  "projectFilePath": "C:\\Users\\jerins\\source\\repos\\AssetManagement\\AssetManagementConsole\\AssetManagementConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jerins\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
     "C:\\Users\\jerins\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",

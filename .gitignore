@@ -1,5 +1,5 @@
-./AssetManagementAPI/bin
-./AssetManagementAPI/obj
-./AssetManagementConsole/bin
-./AssetManagementConsole/obj
+./AssetManagementAPI/bin/**/*
+./AssetManagementAPI/obj/**/*
+./AssetManagementConsole/bin/**/*
+./AssetManagementConsole/obj/**/*
 .vs

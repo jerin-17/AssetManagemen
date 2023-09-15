@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vWh9Efk4PWHQGajKkyzSbWMs7lL0QPeqpVp3UWgDHKyVhsS3NNkPHIQa24zrvt1A65tbwLUSAlXoB9I0xsfODg==",
+  "dgSpecHash": "hST8wovVrkecFx0LnlFy62QkI9AVlzoo6FsJhEQrlpU0OSb3fl+xHJmiXKPRzLq8o0DLVqXNCTVXGDamNbnVTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jerins\\source\\repos\\AssetManagementAPI\\AssetManagementAPI\\AssetManagementAPI.csproj",
+  "projectFilePath": "C:\\Users\\jerins\\source\\repos\\AssetManagement\\AssetManagementAPI\\AssetManagementAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jerins\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jerins\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
