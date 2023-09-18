@@ -27,8 +27,8 @@ namespace AssetManagementAPI.Controllers
 
             try
             {
-                _meetingRoomService.CreateMeetingRoom(meetingRoom);
-                return Ok();
+                int id = _meetingRoomService.CreateMeetingRoom(meetingRoom);
+                return Ok(id);
             }
             catch (Exception ex)
             {

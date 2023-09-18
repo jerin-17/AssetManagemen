@@ -6,6 +6,6 @@ namespace AssetManagementAPI.Interfaces
     public interface IMeetingRoomService
     {
         List<MeetingRoom> GetMeetingRooms();
-        void CreateMeetingRoom(MeetingRoomDTO  meetingRoom);
+        int CreateMeetingRoom(MeetingRoomDTO  meetingRoom);
     }
 }

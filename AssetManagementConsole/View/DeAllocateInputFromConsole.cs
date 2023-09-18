@@ -26,7 +26,7 @@ namespace AssetManagementConsole
         {
             foreach (var seat in seats)
             {
-                Console.WriteLine($"{seat.CityAbbr}-{seat.BuildingAbbr}-{seat.FloorNumber}-{seat.FacilityAbbr}-{seat.SeatNumber}");
+                Console.WriteLine($"{seat.SeatId}. {seat.CityAbbr}-{seat.BuildingAbbr}-{seat.FloorNumber}-{seat.FacilityAbbr}-{seat.SeatNumber}");
             }
         }
         public DeallocateDTO GetInput()
