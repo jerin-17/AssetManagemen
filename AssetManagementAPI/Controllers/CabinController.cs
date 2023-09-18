@@ -26,8 +26,8 @@ namespace AssetManagementAPI.Controllers
         {
             try
             {
-             _cabinService.CreateCabin(cabin);
-                return Ok();
+            int id =  _cabinService.CreateCabin(cabin);
+                return Ok(id);
             }
             catch (Exception ex)
             {

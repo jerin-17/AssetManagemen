@@ -22,20 +22,21 @@ namespace AssetManagementAPI.Services
             return _cabinRepository.GetAll().ToList();
         }
 
-        public void CreateCabin(CabinDTO cabin)
+        public int CreateCabin(CabinDTO cabin)
         {
             if (cabin.CabinNumber == null)
             {
                 throw new ArgumentNullException("Seat Number cannot be Null");
             }
 
-
-            _cabinRepository.Add(new Cabin
+            var cabinNew = new Cabin
             {
                 CabinNumber = cabin.CabinNumber,
                 FacilityId = cabin.FacilityId
-            });
+            };
+            _cabinRepository.Add(cabinNew);
             _cabinRepository.Save();
+            return cabinNew.CabinId;
         }
 
         public void AllocateCabin(int cabinId, int employeeId)

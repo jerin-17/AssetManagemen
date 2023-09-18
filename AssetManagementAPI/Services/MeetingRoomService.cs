@@ -20,7 +20,7 @@ namespace AssetManagementAPI.Services
         }
 
 
-        public void CreateMeetingRoom(MeetingRoomDTO meetingRoom)
+        public int CreateMeetingRoom(MeetingRoomDTO meetingRoom)
         {
             if (meetingRoom.MeetingRoomNumber == null)
             {
@@ -30,14 +30,15 @@ namespace AssetManagementAPI.Services
             {
                 throw new ArgumentNullException("Facility Id cannot be null");
             }
-
-            _meetingRoomRepository.Add(new MeetingRoom
+            var meetingRoomNew = new MeetingRoom
             {
                 MeetingRoomNumber = meetingRoom.MeetingRoomNumber,
                 SeatCount = meetingRoom.SeatCount,
                 FacilityId = meetingRoom.FacilityId,
-            });
+            };
+            _meetingRoomRepository.Add(meetingRoomNew);
             _meetingRoomRepository.Save();
+            return meetingRoomNew.MeetingRoomId;
         }
     }
 }

@@ -26,8 +26,8 @@ namespace AssetManagementAPI.Controllers
         {
             try
             {
-                _seatService.CreateSeat(seat);
-                return Ok();
+               int id = _seatService.CreateSeat(seat);
+                return Ok(id);
             }
             catch(Exception ex)
             {

@@ -30,7 +30,7 @@ namespace AssetManagementAPI.Controllers
             try
             {
                 int id = _cityService.CreateCity(city);
-                return Ok();
+                return Ok(id);
             }
             catch (Exception ex)
             {

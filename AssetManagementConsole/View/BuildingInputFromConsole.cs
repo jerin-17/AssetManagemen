@@ -1,6 +1,5 @@
 ﻿using AssetManagementAPI.Model;
 using AssetManagementConsole.Interface;
-using AssetManagementConsole.View;
 using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
@@ -8,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AssetManagementConsole
+namespace AssetManagementConsole.View
 {
     public class BuildingInputFromConsole : IInputProvider<Building>
     {
